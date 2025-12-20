@@ -43,7 +43,7 @@ This document identifies key stakeholders involved in the loan application and r
 - Delays caused by email-based communication
 
 ## Stakeholder Expectations
-- Faster loan turnaround time
+- Faster loan turnaround time (TAT)
 - Improved data accuracy
 - Clear ownership and accountability
 - Enhanced process transparency
