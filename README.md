@@ -35,8 +35,6 @@ The existing loan processing workflow relies heavily on manual data entry, sprea
 - 05_KPIs_and_Busienss_Impact
 
 ## Outcome
-- 
-## Outcome
 This project showcases practical Business Analyst skills including process analysis, documentation, optimization thinking, and stakeholder-focused problem solving within a banking and financial services environment.
 
 
