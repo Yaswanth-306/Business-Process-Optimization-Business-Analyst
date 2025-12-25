@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="QcoLajeQsSH7vCu04p5v">
+    <mxGraphModel dx="1404" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="AS_IS Loan Application Processing Workflow" vertex="1">
+          <mxGeometry height="1140" width="1000" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-2" parent="VAQLtmyosHvfsfJZSkJv-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="150" width="1000" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-11" edge="1" parent="VAQLtmyosHvfsfJZSkJv-2" source="VAQLtmyosHvfsfJZSkJv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-9" parent="VAQLtmyosHvfsfJZSkJv-2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Customer needs a loan" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-10" parent="VAQLtmyosHvfsfJZSkJv-2" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Submit Loan application and documents" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-3" parent="VAQLtmyosHvfsfJZSkJv-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Relationship Manager" vertex="1">
+          <mxGeometry height="254" width="1000" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-15" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="VAQLtmyosHvfsfJZSkJv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="VAQLtmyosHvfsfJZSkJv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-12" parent="VAQLtmyosHvfsfJZSkJv-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Receive Loan application and documents&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-16" parent="VAQLtmyosHvfsfJZSkJv-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=east;" value="Application complete?" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-14" parent="VAQLtmyosHvfsfJZSkJv-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Enter Loan data into Laon Application Registry (LAR)" vertex="1">
+          <mxGeometry height="100" width="100" x="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-18" parent="VAQLtmyosHvfsfJZSkJv-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Request missing information and documents from the customer" vertex="1">
+          <mxGeometry height="100" width="100" x="587" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-19" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="VAQLtmyosHvfsfJZSkJv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-24" parent="VAQLtmyosHvfsfJZSkJv-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Forward application to Credit/Risk" vertex="1">
+          <mxGeometry height="100" width="100" x="587" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-29" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="VAQLtmyosHvfsfJZSkJv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-35" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.215" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-30" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="VAQLtmyosHvfsfJZSkJv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-34" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.2127" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-10" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="zH4rbZymPBUZYUyVJ9Bh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zH4rbZymPBUZYUyVJ9Bh-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-2" parent="VAQLtmyosHvfsfJZSkJv-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Review rejection reason and coordinate customer follow-up" vertex="1">
+          <mxGeometry height="100" width="100" x="730" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-40" edge="1" parent="VAQLtmyosHvfsfJZSkJv-3" source="VAQLtmyosHvfsfJZSkJv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VAQLtmyosHvfsfJZSkJv-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-8" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="QUEUE/SLA WAIT TIME" vertex="1">
+          <mxGeometry relative="1" x="-0.2802" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-7" parent="VAQLtmyosHvfsfJZSkJv-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Close Application- Customer Notified" vertex="1">
+          <mxGeometry height="60" width="100" x="880" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-4" parent="VAQLtmyosHvfsfJZSkJv-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Credit/Risk" vertex="1">
+          <mxGeometry height="296" width="1000" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-44" edge="1" parent="VAQLtmyosHvfsfJZSkJv-4" source="VAQLtmyosHvfsfJZSkJv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VAQLtmyosHvfsfJZSkJv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-23" parent="VAQLtmyosHvfsfJZSkJv-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Perform Credit/Risk analysis" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-49" edge="1" parent="VAQLtmyosHvfsfJZSkJv-4" source="VAQLtmyosHvfsfJZSkJv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VAQLtmyosHvfsfJZSkJv-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-51" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-43" parent="VAQLtmyosHvfsfJZSkJv-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Credit Approved?" vertex="1">
+          <mxGeometry height="100" width="100" x="380" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-45" parent="VAQLtmyosHvfsfJZSkJv-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Reject loan and notify Relationship Manager" vertex="1">
+          <mxGeometry height="100" width="100" x="590" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-46" parent="VAQLtmyosHvfsfJZSkJv-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Send approved application to Compliance&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="590" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-48" edge="1" parent="VAQLtmyosHvfsfJZSkJv-4" source="VAQLtmyosHvfsfJZSkJv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="76" />
+              <mxPoint x="535" y="76" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-50" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.1597" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-8" parent="VAQLtmyosHvfsfJZSkJv-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Compliance" vertex="1">
+          <mxGeometry height="260" width="1000" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-52" parent="VAQLtmyosHvfsfJZSkJv-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Conduct Regulatory and Policy Checks&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-53" parent="VAQLtmyosHvfsfJZSkJv-8" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Compliance Cleared?" vertex="1">
+          <mxGeometry height="100" width="100" x="380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-54" parent="VAQLtmyosHvfsfJZSkJv-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Flag issues and return to Relationship Manager" vertex="1">
+          <mxGeometry height="100" width="100" x="590" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-55" parent="VAQLtmyosHvfsfJZSkJv-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Approve for processing" vertex="1">
+          <mxGeometry height="100" width="100" x="590" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-56" edge="1" parent="VAQLtmyosHvfsfJZSkJv-8" source="VAQLtmyosHvfsfJZSkJv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-58" edge="1" parent="VAQLtmyosHvfsfJZSkJv-8" source="VAQLtmyosHvfsfJZSkJv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-60" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.1148" y="2" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-59" edge="1" parent="VAQLtmyosHvfsfJZSkJv-8" source="VAQLtmyosHvfsfJZSkJv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="208" />
+              <mxPoint x="535" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-61" connectable="0" parent="VAQLtmyosHvfsfJZSkJv-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-7" parent="VAQLtmyosHvfsfJZSkJv-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Operations" vertex="1">
+          <mxGeometry height="160" width="1000" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-66" edge="1" parent="VAQLtmyosHvfsfJZSkJv-7" source="VAQLtmyosHvfsfJZSkJv-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VAQLtmyosHvfsfJZSkJv-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-62" parent="VAQLtmyosHvfsfJZSkJv-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Prepare loan documentation" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-63" parent="VAQLtmyosHvfsfJZSkJv-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Activate loan account" vertex="1">
+          <mxGeometry height="100" width="100" x="380" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-64" parent="VAQLtmyosHvfsfJZSkJv-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Disburse loan funds" vertex="1">
+          <mxGeometry height="60" width="100" x="590" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-67" edge="1" parent="VAQLtmyosHvfsfJZSkJv-7" source="VAQLtmyosHvfsfJZSkJv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-13" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="VAQLtmyosHvfsfJZSkJv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-22" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="87" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAQLtmyosHvfsfJZSkJv-65" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VAQLtmyosHvfsfJZSkJv-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="960" />
+              <mxPoint x="230" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-4" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.02;exitY=0.69;exitDx=0;exitDy=0;exitPerimeter=0;" target="VAQLtmyosHvfsfJZSkJv-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-9" connectable="0" parent="zH4rbZymPBUZYUyVJ9Bh-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="QUEUE/SLA WAIT TIME" vertex="1">
+          <mxGeometry relative="1" x="-0.2228" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-5" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.18;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" target="zH4rbZymPBUZYUyVJ9Bh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH4rbZymPBUZYUyVJ9Bh-6" edge="1" parent="VAQLtmyosHvfsfJZSkJv-1" source="VAQLtmyosHvfsfJZSkJv-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="zH4rbZymPBUZYUyVJ9Bh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
