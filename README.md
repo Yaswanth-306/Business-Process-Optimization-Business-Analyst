@@ -38,4 +38,4 @@ The optimized process introduces a centralized **Loan Origination System (LOS)**
 | **Auditability** | Low (Email-based) | High (System-integrated) |
 
 ---
-**Contact:** [Your Name] – Business Analyst
+**Contact:** Yaswanth Varma Chitraju – Business Analyst
