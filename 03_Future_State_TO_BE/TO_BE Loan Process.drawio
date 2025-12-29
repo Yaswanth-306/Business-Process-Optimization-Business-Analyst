@@ -1,0 +1,255 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="ngJNvek7Lzfoq9n2wjy0">
+    <mxGraphModel dx="2102" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3iVk6ZxithINmGLCuAol-5" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="TO_BE Loan Application Process Workflow" vertex="1">
+          <mxGeometry height="1190" width="1680" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-6" parent="3iVk6ZxithINmGLCuAol-5" style="swimlane;startSize=20;horizontal=0;html=1;" value="Customer Portal" vertex="1">
+          <mxGeometry height="140" width="1680" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-11" parent="3iVk6ZxithINmGLCuAol-6" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Submit Loan Application and Documents" vertex="1">
+          <mxGeometry height="95" width="130" x="80" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-111" edge="1" parent="3iVk6ZxithINmGLCuAol-6" source="3iVk6ZxithINmGLCuAol-108" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-108" parent="3iVk6ZxithINmGLCuAol-6" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Customer gathers missing info" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-7" parent="3iVk6ZxithINmGLCuAol-5" style="swimlane;startSize=20;horizontal=0;html=1;" value="Loan ORigination System(LOS)" vertex="1">
+          <mxGeometry height="290" width="1680" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-15" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="3iVk6ZxithINmGLCuAol-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-12" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="OCR extracts loan application and documents" vertex="1">
+          <mxGeometry height="100" width="100" x="95" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-17" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="3iVk6ZxithINmGLCuAol-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-14" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Automated completeness validation" vertex="1">
+          <mxGeometry height="100" width="100" x="274" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-25" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-26" connectable="0" parent="3iVk6ZxithINmGLCuAol-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.0044" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-16" parent="3iVk6ZxithINmGLCuAol-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Application Complete" vertex="1">
+          <mxGeometry height="100" width="100" x="430" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-24" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto notify customer to upload missing info" vertex="1">
+          <mxGeometry height="100" width="100" x="600" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-66" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-62" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Generate Loan Documents" vertex="1">
+          <mxGeometry height="100" width="100" x="900" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-68" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-64" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Send for Digital Signature&lt;div&gt;(DocuSign)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="1080" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-97" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-98" connectable="0" parent="3iVk6ZxithINmGLCuAol-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-67" parent="3iVk6ZxithINmGLCuAol-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Document&lt;div&gt;Signed?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="1240" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-87" parent="3iVk6ZxithINmGLCuAol-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Application&amp;nbsp;&lt;div&gt;closed (Approved/Rejected&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="1554" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-105" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-96" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-96" parent="3iVk6ZxithINmGLCuAol-7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Update Application status=Approved" vertex="1">
+          <mxGeometry height="100" width="100" x="1410" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-100" parent="3iVk6ZxithINmGLCuAol-7" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto route to Credit&amp;nbsp;&lt;div&gt;and Compliance queues&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95" x="605" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-101" edge="1" parent="3iVk6ZxithINmGLCuAol-7" source="3iVk6ZxithINmGLCuAol-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-104" connectable="0" parent="3iVk6ZxithINmGLCuAol-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.1167" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-8" parent="3iVk6ZxithINmGLCuAol-5" style="swimlane;startSize=20;horizontal=0;html=1;" value="Credit" vertex="1">
+          <mxGeometry height="290" width="1680" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-34" edge="1" parent="3iVk6ZxithINmGLCuAol-8" source="3iVk6ZxithINmGLCuAol-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-32" parent="3iVk6ZxithINmGLCuAol-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="System assisted credit and risk scoring" vertex="1">
+          <mxGeometry height="100" width="100" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-37" edge="1" parent="3iVk6ZxithINmGLCuAol-8" source="3iVk6ZxithINmGLCuAol-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-38" connectable="0" parent="3iVk6ZxithINmGLCuAol-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.1143" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-44" edge="1" parent="3iVk6ZxithINmGLCuAol-8" source="3iVk6ZxithINmGLCuAol-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-45" connectable="0" parent="3iVk6ZxithINmGLCuAol-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.1581" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-33" parent="3iVk6ZxithINmGLCuAol-8" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Credit&lt;div&gt;&amp;nbsp;Approved?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-92" edge="1" parent="3iVk6ZxithINmGLCuAol-8" source="3iVk6ZxithINmGLCuAol-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-35" parent="3iVk6ZxithINmGLCuAol-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Record reject reason in LOS" vertex="1">
+          <mxGeometry height="100" width="100" x="440" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-36" parent="3iVk6ZxithINmGLCuAol-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Generate digital loan package" vertex="1">
+          <mxGeometry height="100" width="100" x="440" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-39" parent="3iVk6ZxithINmGLCuAol-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto-notify RM and Customer" vertex="1">
+          <mxGeometry height="100" width="100" x="810" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-91" edge="1" parent="3iVk6ZxithINmGLCuAol-8" source="3iVk6ZxithINmGLCuAol-90" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-90" parent="3iVk6ZxithINmGLCuAol-8" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Update application status=Rejected" vertex="1">
+          <mxGeometry height="100" width="100" x="610" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-10" parent="3iVk6ZxithINmGLCuAol-5" style="swimlane;startSize=20;horizontal=0;html=1;" value="Compliance" vertex="1">
+          <mxGeometry height="290" width="1680" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-50" edge="1" parent="3iVk6ZxithINmGLCuAol-10" source="3iVk6ZxithINmGLCuAol-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-46" parent="3iVk6ZxithINmGLCuAol-10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Automated regulatory and policy validation" vertex="1">
+          <mxGeometry height="100" width="100" x="100" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-52" edge="1" parent="3iVk6ZxithINmGLCuAol-10" source="3iVk6ZxithINmGLCuAol-49" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-54" connectable="0" parent="3iVk6ZxithINmGLCuAol-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.1685" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-56" edge="1" parent="3iVk6ZxithINmGLCuAol-10" source="3iVk6ZxithINmGLCuAol-49" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-57" connectable="0" parent="3iVk6ZxithINmGLCuAol-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.1488" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-49" parent="3iVk6ZxithINmGLCuAol-10" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Compliance&lt;div&gt;cleared?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="270" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-94" edge="1" parent="3iVk6ZxithINmGLCuAol-10" source="3iVk6ZxithINmGLCuAol-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-51" parent="3iVk6ZxithINmGLCuAol-10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Flag issues in LOS&amp;nbsp;" vertex="1">
+          <mxGeometry height="100" width="100" x="440" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-55" parent="3iVk6ZxithINmGLCuAol-10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Send for E-Signature" vertex="1">
+          <mxGeometry height="100" width="100" x="440" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-58" parent="3iVk6ZxithINmGLCuAol-10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto-notify RM and Customer" vertex="1">
+          <mxGeometry height="100" width="100" x="810" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-95" edge="1" parent="3iVk6ZxithINmGLCuAol-10" source="3iVk6ZxithINmGLCuAol-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-93" parent="3iVk6ZxithINmGLCuAol-10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Update&amp;nbsp; application status=&lt;div&gt;Compliance failed&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="610" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-9" parent="3iVk6ZxithINmGLCuAol-5" style="swimlane;startSize=20;horizontal=0;html=1;" value="Operations/Core Banking" vertex="1">
+          <mxGeometry height="160" width="1680" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-76" edge="1" parent="3iVk6ZxithINmGLCuAol-9" source="3iVk6ZxithINmGLCuAol-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-69" parent="3iVk6ZxithINmGLCuAol-9" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto open loan in Core Banking System(CBS)" vertex="1">
+          <mxGeometry height="100" width="100" x="95" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-77" edge="1" parent="3iVk6ZxithINmGLCuAol-9" source="3iVk6ZxithINmGLCuAol-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-75" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-70" parent="3iVk6ZxithINmGLCuAol-9" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Auto-disburse funds" vertex="1">
+          <mxGeometry height="100" width="100" x="274" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-75" parent="3iVk6ZxithINmGLCuAol-9" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Loan Completed" vertex="1">
+          <mxGeometry height="60" width="100" x="450" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-13" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="3iVk6ZxithINmGLCuAol-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-63" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-65" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-88" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-39" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.327;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-89" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.713;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-99" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-96" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="1040" />
+              <mxPoint x="145" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-102" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-100" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="3iVk6ZxithINmGLCuAol-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="390" />
+              <mxPoint x="630" y="430" />
+              <mxPoint x="80" y="430" />
+              <mxPoint x="80" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-103" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-100" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" target="3iVk6ZxithINmGLCuAol-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="440" />
+              <mxPoint x="150" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iVk6ZxithINmGLCuAol-109" edge="1" parent="3iVk6ZxithINmGLCuAol-5" source="3iVk6ZxithINmGLCuAol-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="3iVk6ZxithINmGLCuAol-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
